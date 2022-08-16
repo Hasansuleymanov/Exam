@@ -1,0 +1,233 @@
+header {
+  background-color: #0F0F1B;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+header .main-header .head-part {
+  padding: 20px 0;
+}
+header .main-header .head-part .logo img {
+  width: 40px;
+  height: 30px;
+}
+header .main-header .head-part .logo h4 {
+  color: white;
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+header .main-header .head-part .logo .line1 {
+  margin-left: 15px;
+  margin-top: 2px;
+}
+header .main-header .head-part .logo .wato {
+  color: white;
+  margin-left: 10px;
+}
+header .main-header .head-part .logo span {
+  color: #59574C;
+  padding: 0px 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+header .main-header .details a {
+  text-decoration: none;
+  color: white;
+  background-color: #242486;
+  padding: 10px 25px;
+  border-radius: 9px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 88%;
+  margin: auto;
+}
+
+.container2 {
+  width: 94%;
+  margin: auto;
+}
+
+.mt-50 {
+  margin-top: 80px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+.line1 {
+  background-color: #181824;
+  width: 1px;
+  height: 20px;
+}
+
+.charts {
+  background-color: #F1F6FF;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.charts .first-chart {
+  background-color: white;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 20px 25px #DCE4F1;
+}
+.charts .first-chart:hover {
+  background-color: #242486;
+}
+.charts .first-chart:hover .chart-head .chart-left h6 {
+  color: white;
+}
+.charts .first-chart:hover .chart-head .chart-right span {
+  color: white;
+}
+.charts .first-chart:hover .chart-head .chart-right i {
+  color: white;
+}
+.charts .first-chart:hover .chart-middle p {
+  color: white;
+}
+.charts .first-chart:hover .chart-end p {
+  color: white;
+  background-color: #242486;
+}
+.charts .first-chart .chart-head .chart-left h6 {
+  color: #435677;
+  font-size: 22px;
+  font-weight: 700;
+}
+.charts .first-chart .chart-head .chart-left p {
+  margin-left: 10px;
+  color: #BEBFC7;
+  font-weight: 700;
+  margin-top: 7px;
+}
+.charts .first-chart .chart-head .chart-right i {
+  margin-right: 10px;
+  font-size: 22px;
+  color: #272E69;
+}
+.charts .first-chart .chart-head .chart-right span {
+  font-size: 17px;
+}
+.charts .first-chart .chart-middle {
+  padding-top: 10px;
+  width: 70%;
+}
+.charts .first-chart .chart-end {
+  padding-top: 20px;
+}
+.charts .first-chart .chart-end p {
+  margin-right: 10px;
+  background-color: #F1F6FF;
+  font-size: 13px;
+  padding: 5px 8px;
+  border-radius: 15px;
+}
+
+.end {
+  background-color: #F1F6FF;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.end .end-part {
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  box-shadow: 0 20px 25px #DCE4F1;
+}
+.end .end-part .end-head h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #181d39;
+  padding-top: 20px;
+}
+.end .end-part .end-mid {
+  padding-top: 20px;
+}
+.end .end-part .end-mid p {
+  margin-right: 110px;
+}
+.end .end-part .end-mid1 {
+  padding-top: 10px;
+}
+.end .end-part .end-mid1 p {
+  font-size: 13px;
+  margin-right: 15px;
+  border: 2px solid #EFF2F8;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.end .end-part .end-mid1 p i {
+  font-size: 25px;
+  margin-left: 65px;
+}
+.end .end-part .end-middle {
+  padding-top: 35px;
+}
+.end .end-part .end-middle .lines {
+  background-color: #F1F6FF;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+.end .end-part .end-middle .lines .lines-info p {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.end .end-part .end-middle .lines .lines-copy img {
+  margin-right: 20px;
+  background-color: white;
+  padding: 10px;
+}
+.end .end-part .end-end {
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+.end .end-part .end-end a {
+  text-decoration: none;
+  color: white;
+  background-color: #242486;
+  padding: 22px 30px;
+  border-radius: 7px;
+  font-weight: 600;
+  box-shadow: 0 20px 25px #DCE4F1;
+}/*# sourceMappingURL=style.css.map */
